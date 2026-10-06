@@ -1,0 +1,31 @@
+package main;
+
+public class Main {
+    public static void main(String[] args) {
+        int a[] = new int[3];
+        a[0] = 15;
+        a[1] = 25;
+        a[2] = 35;
+
+        int x = a[0] + a[2];
+        System.out.println("Value of x: " + x);
+
+        a[2] = 120;
+        x = a[0] + a[2];
+        System.out.println("Value of x: " + x);
+
+        int arr[] = { 2, 5, 36, -8, 7 };
+
+        System.out.println("Size of arr: " + arr.length);
+        System.out.println("Value of index 0: " + arr[0]);
+        System.out.println("Value of index 3: " + arr[3]);
+
+        for (int i = 0; i < 5; i++) {
+            System.out.println(arr[i]);
+        }
+
+        char charArr[] = { 'J', 'K' };
+        System.out.println(charArr);
+        System.out.println(charArr[1]);
+    }
+}
