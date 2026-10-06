@@ -1,0 +1,16 @@
+package main;
+
+public class Main {
+    public static void main(String[] args) {
+        long a, b, c;
+        a = 125630;
+        b = -48320;
+        c = 27650;
+
+        float avg;
+        avg = (float)(a + b + c) / 3;
+
+        System.out.println("Average of a, b, and c is: " + avg);
+        System.out.println("Sum of the values is: " + (a + b + c));
+    }
+}
