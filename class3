@@ -1,0 +1,34 @@
+```java
+package main;
+
+public class Main {
+    public static void main(String[] args) {
+        int myVar;
+        myVar = 200;
+        System.out.println("Value of myVar is: " + myVar);
+
+        myVar = 700;
+        System.out.println("Value of myVar is: " + myVar);
+
+        myVar = myVar + 20;
+        System.out.println("Value of myVar is: " + myVar);
+
+        double myDoubleVar;
+        myDoubleVar = 650.7845;
+        myDoubleVar = myDoubleVar + 20;
+        System.out.println("Value of myDoubleVar is: " + myDoubleVar);
+
+        char ting;
+        ting = 'B';
+        ting = '-';
+
+        int x = 1200;
+        System.out.println("Stipend of Student-1: " + (3.55 * x));
+        System.out.println("Stipend of Student-2: " + (3.45 * x));
+        System.out.println("Stipend of Student-3: " + (3.67 * x));
+        System.out.println("Stipend of Student-4: " + (3.85 * x));
+    }
+}
+```
+
+This will work exactly like your original code, just with different values.
