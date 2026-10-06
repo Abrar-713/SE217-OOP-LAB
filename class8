@@ -1,0 +1,28 @@
+package main;
+
+public class Main {
+    public static void main(String[] args) {
+        int x;
+        x = 9 + 6;
+        System.out.println("Value of x is: " + x);
+
+        x += 15;
+        System.out.println("Value of x after += 15 is: " + x);
+
+        x -= 8;
+        System.out.println("Value of x after -= 8 is: " + x);
+
+        x = 8;
+        System.out.println("Current value of x is: " + x++);
+
+        System.out.println("Current value of x is: " + ++x);
+
+        x = 8;
+        System.out.println("Current value of x is: " + ++x);
+
+        System.out.println("Current value of x is: " + x++);
+
+        x = 6 + 4 * 3 / 2 - 5;
+        System.out.println("Result of (6 + 4 * 3 / 2 - 5) is: " + x);
+    }
+}
